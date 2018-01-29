@@ -1,14 +1,23 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Ionic Eestimote thing
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+	<div>
+		<ion-card>
+			<ion-card-header>
+				Start Scan
+			</ion-card-header>
+			<ion-card-content>
+				<p>
+					click to start scanning
+				</p>
+				<button ion-button (click)="start_scan()">Scan</button>
+			</ion-card-content>
+		</ion-card>
+	</div>  
 </ion-content>
